@@ -22,3 +22,58 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+.container {
+  max-width: 920px;
+  margin: auto;
+}
+
+header {
+  padding: 20px 0;
+}
+
+h1 {
+  display: inline-block;
+  color: #7e7e7e;
+  font: 40px/40px 'Oswald', sans-serif;
+  background-color: ButtonHighlight;
+  margin: 0;
+  padding: 0 10px;
+}
+
+footer {
+  background: #7e7e7e;
+  color: #dbdbdb;
+  font-size: 11px;
+  clear: both;
+}
+
+.submenu a {
+  text-decoration: none;
+  background-color: #f8f8f8;
+}
+
+.sitemap a {
+  display: block;
+  color: #f8f8f8;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.twitter {
+  background: url('../Images/twitter.png') no-repeat;
+}
+
+.facebook {
+  background: url('../Images/facebook.png') no-repeat;
+}
+
+.google {
+  background: url('../Images/google.png') no-repeat;
+} 

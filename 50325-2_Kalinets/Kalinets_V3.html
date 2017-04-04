@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>lab1-3</title>
+  <link href="Content/bootstrap.min.css" rel="stylesheet" />
+  <link href="Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="wrapper container">
+    <header>
+      <h2>MySite</h2>
+    </header>
+    <nav class="navbar navbar-default">
+      <ul class="nav nav-pills">
+        <li>
+          <a href="#">Главная</a>
+        </li>
+        <li class="active">
+          <a href="#">Каталог</a>
+        </li>
+        <li>
+          <a href="#">О нас</a>
+        </li>
+        <li>
+          <a href="#">Администрирование</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="heading">
+      <h1>Текущая страница</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="list-group submenu">
+          <a href="#" class="list-group-item active">Все</a>
+          <a href="#" class="list-group-item">Телевизоры</a>
+          <a href="#" class="list-group-item">Фото</a>
+          <a href="#" class="list-group-item">Стиральные машины</a>
+          <a href="#" class="list-group-item">Велосипеды</a>
+          <a href="#" class="list-group-item">Мебель</a>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <h2>Список</h2>
+        <ol type="A">
+          <li>элемент 1 списка</li>
+          <li>элемент 2 списка</li>
+        </ol>
+        <hr />
+        <h2>Форма</h2>
+        <form id="MyForm" class="form-horizontal">
+          <div class="form-group">
+            <div class="col-md-offset-4 col-md-8">
+              <input type="checkbox" name="1" value="1" /> Чек-бокс 1 
+            </div>
+            <div class="col-md-offset-4 col-md-8">
+              <input type="checkbox" name="2" value="2" /> Чек-бокс 2
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-offset-4 col-md-8 ">
+              <label>
+                <input type="radio" checked="checked" name="3" value="1" /> Радио-1
+              </label>
+              <label>
+                <input type="radio" name="3" value="2" /> Радио2
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="name" class="col-md-3 control-label">Введите логин:</label>
+            <div class="col-md-9">
+              <input type="text" id="name" name="login" class="form-control" placeholder="Введите логин" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="pass" class="col-md-3 controllabel">Введите пароль:</label>
+            <div class="col-md-9">
+              <input type="password" id="pass" name="pass" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-md-offset-3 col-md-9">
+              <button type="submit" class="btn btninfo">Отправить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div> 
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 sitemap">
+          КАРТА САЙТА
+          <div class="row">
+            <div class="col-md-6">
+              <a href="#">Главная</a>
+              <a href="#">О нас</a>
+              <a href="#">Администрирование</a>
+            </div>
+            <div class="col-md-6">
+              <a href="#">Товары</a>
+              <a href="#">Корзина</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-offset-6 socials">
+          <h5>СОЦИАЛЬНЫЕ СЕТИ</h5>
+          <a href="http://twitter.com/" class="social-icon twitter"></a>
+          <a href="http://facebook.com/" class="social-icon facebook"></a>
+          <a href="http://plus.google.com/" class="social-icon google"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="Scripts/jquery-1.10.2.min.js"></script>
+  <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
