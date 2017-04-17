@@ -155,12 +155,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\facebook.png" />
-    <Content Include="Images\google.png" />
+    <Content Include="Images\FB.png" />
     <Content Include="Images\twitter.png" />
-    <Content Include="Kalinets_V1.html" />
-    <Content Include="Kalinets_V2.html" />
-    <Content Include="Kalinets_V3.html" />
+    <Content Include="Images\VK.png" />
+    <Content Include="LAB1\Kalinets_V1.html" />
+    <Content Include="LAB1\Kalinets_V2.html" />
+    <Content Include="LAB1\Kalinets_V3.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
