@@ -6,12 +6,15 @@ using System.Web.Mvc;
 
 namespace _50325_2_Kalinets.Controllers
 {
-    public class HomeController : Controller
+  public class HomeController : Controller
+  {
+    // GET: Home
+    public ActionResult Index()
     {
-        // GET: Home
-        public ActionResult Index()
-        {
-            return View();
-        }
+      SelectList Colors = new SelectList(Enum.GetValues(typeof(System.Drawing.KnownColor)));
+      ViewBag.Colors = Colors;
+      ViewBag.MyText = Request.QueryString["Colors"] ?? "Лабораторная работа №2";
+      return View();
     }
+  }
 }
