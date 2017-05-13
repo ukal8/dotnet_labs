@@ -160,7 +160,6 @@
     <Content Include="Images\VK.png" />
     <Content Include="LAB1\Kalinets_V1.html" />
     <Content Include="LAB1\Kalinets_V2.html" />
-    <Content Include="LAB1\Kalinets_V3.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
