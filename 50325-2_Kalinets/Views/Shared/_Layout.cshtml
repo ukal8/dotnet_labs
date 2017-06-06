@@ -20,7 +20,7 @@
         <div class="logo">
           <a class="navbar-brand" href="index.html">Kalinets' dot net labs</a>
         </div>
-        @Html.Action("Main", "Menu")
+        @Html.Action("Main", "Menu", new { c = Request.RequestContext.RouteData.Values["controllers"], })
       </div>
     </div><!--панель навигации (конец)-->
   </div><!--Заголовок (конец)-->
@@ -34,17 +34,7 @@
       </div>
       <div class="row">
         <!--Левая боковая панель-->
-        <div class="col-md-3">
-          @Html.Action("Side", "Menu")
-          <!--<div class="navbar navbar-default">
-            <ul class="nav nav-pills nav-stacked">
-              <li><a href="#">Все категории</a></li>
-              <li class="active"><a href="#">Кино</a></li>
-              <li><a href="#">Книги</a></li>
-              <li><a href="#">Инструмент</a></li>
-            </ul>
-          </div>-->
-        </div>
+        @RenderSection("SidePanel", required: false)
         <!--/Левая боковая панель (конец)-->
         <!--Основная панель-->
         <div class="col-md-9">
@@ -61,12 +51,6 @@
       <div class="row">
         <div class="col-md-3">
           @Html.Action("Map", "Menu")
-          <!--<h6>Kарта сайта</h6>
-          <ul>
-            <li>@Html.ActionLink("Домой", "Index", "Home")</li>
-            <li class="active">@Html.ActionLink("Каталог", "List", "Product")</li>
-            <li>@Html.ActionLink("Администрирование", "Index", "Admin")</li>
-          </ul>-->
         </div>
         <div class="col-md-3 col-md-offset-6">
           <h6>Социальные сети</h6>
